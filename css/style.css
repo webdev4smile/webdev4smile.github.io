@@ -1,0 +1,192 @@
+body {
+  font-family: 'Heebo', sans-serif;
+}
+
+.center-heading-two {
+  display: none;
+
+
+}
+
+.section-btn {
+  background: #86c342;
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 200;
+  padding: 15px 30px;
+  transition: 0.5s;
+  margin-top: 10px;
+  font-family: Heebo;
+}
+
+#section-btn-about {
+  font-size: 18px;
+  padding-right: 30px;
+  padding-left: 30px;
+  font-family: Heebo;
+
+}
+
+/*
+#call-button-top {
+  margin-top: 60px;
+}*/
+
+.section-btn:hover {
+  background: #63942b;
+  border-color: transparent;
+}
+
+.header-navbar-one {
+  height: 230px;
+  margin-right: 5%;
+  margin-left: 5%;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.smile-advisers-logo {
+  width: 500px;
+
+}
+
+#call-button-top {
+  padding-top: 50px;
+}
+
+.bg-image-home .container-fluid {
+  background-image: url(../images/banner-1.jpeg);
+  width: 100% !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1180px;
+
+
+
+}
+
+.qualify-rectangle-background {
+  background-color: white;
+  font-family: Heebo;
+  margin-left: 10%;
+  margin-top: 10%;
+  padding: 30px;
+  padding-left: 60px;
+  padding-top: 50px;
+  height: 375px;
+  width: 550px;
+
+
+
+
+}
+
+
+.box-one {
+  margin-left: 200px;
+  margin-top: 200px;
+  line-height: 2.1;
+
+
+}
+
+#about {
+  background-color: #191919;
+  color: #fff;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.center-heading {
+  padding-bottom: 80px;
+}
+
+.about-info {
+  font-family: Montserrat;
+  text-align: left;
+}
+
+.arrow-schedule-button {
+  margin-left: 30%;
+}
+
+.arrow-btn-align{margin-left: 30px;}
+
+
+
+table,
+th,
+td {
+  border: 0px;
+}
+
+td {
+  width: 10px;
+  vertical-align: top;
+}
+
+#about-overlooked-barrier {
+  text-align: center;
+}
+
+#about-overlooked-barrier {
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+
+}
+
+
+#about-overlooked-barrier .center-heading {
+  font-family: Heebo;
+}
+
+#about-overlooked-barrier h3 {
+  font-family: Heebo;
+}
+
+#about-overlooked-barrier .center-text {
+  font-family: Montserrat;
+  font-size: 23px;
+}
+
+.center-text {
+  margin-top: -50px;
+  margin-right: 17%;
+  margin-left: 17%;
+}
+
+#solidbar-section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #191919;
+  color: #fff;
+  text-align: center;
+}
+
+.second-center-heading h2{ font-family: Heebo;}
+
+.third-center-heading{ font-family: Heebo;
+padding-top:50px; text-align:left;
+
+padding-bottom:50px;}
+
+.about-info p {
+  font-family: Montserrat;
+  font-size: 20px;
+  margin-right:15%;
+}
+
+.last-schedule-btn{
+  padding-top:50px;
+  padding-bottom:50px;}
+
+#footer{margin-top:60px; background-color:#191919; color:#fff; height :300px;
+
+}
+
+.footer-text{font-family: Montserrat;
+  padding-top:80px;
+  font-size: 20px;}
