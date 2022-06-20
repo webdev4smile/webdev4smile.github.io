@@ -1,0 +1,227 @@
+@media screen and (max-width: 1122px) and (min-width: 981px) {
+
+
+    .smile-advisers-logo {
+        padding-top: 10px;
+        max-width: 200px;
+        height: auto;
+
+
+    }
+
+    .section-btn {
+
+        font-weight: 100;
+        padding: 6px 11px;
+        transition: 0.5s;
+        margin-top: 10px;
+        font-family: Heebo;
+        max-width: 100%;
+        height: auto;
+
+    }
+
+    .rectangle {
+        width: 70vw;
+    }
+
+    .center-text img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+        height: auto;
+
+    }
+
+    .arrow-btn-align {
+
+        margin-left: 0px;
+
+
+    }
+
+
+    #call-button-top {
+        padding-top: 20px;
+        display: block;
+        text-align: center !important;
+
+
+    }
+
+    .section-btn {
+        font-size: 17px;
+    }
+
+    .header-navbar-one {
+        margin-right: 5%;
+        margin-left: 1%;
+        height: 160px;
+        text-align: center;
+
+
+    }
+
+    .header-navbar-one img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+
+    .bg-image-home .container-fluid {
+
+        background-image: url(../images/banner-1.jpeg);
+        max-width: 100% !important;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+
+    }
+
+
+
+    .qualify-rectangle-background h1 {
+        font-size: 25px;
+
+        /* 
+        background-color: white;
+        font-family: Heebo;
+        margin-left: 10px;
+        padding-bottom: 15px;
+        padding: 25px;
+        height: 350px;
+        width: 300px; */
+
+    }
+
+    .qualify-rectangle-background #second-schedule-button {
+        font-size: 17px;
+        padding: 20px;
+    }
+
+
+    .box-one .qualify-rectangle-background {
+        margin-top: 50px;
+        margin-left: -180px;
+        padding: 20px;
+        width: 300px;
+        height: 230px;
+        line-height: 1.4;
+    }
+
+    #about img {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    #about .center-heading {
+        display: none;
+    }
+
+    #about .center-heading-two {
+        display: contents;
+
+
+    }
+
+    .arrow-schedule-button {
+        margin-left: -5%;
+    }
+
+    .arrow-schedule-button {
+        margin-top: 50px;
+
+    }
+
+
+    table {
+
+        width: 80% !important;
+        padding-right: 30%;
+        margin-left: 10%;
+    }
+
+    table h3 {
+        font-size: 20px;
+    }
+
+
+    #about-overlooked-barrier .center-heading {
+        padding-top: 5px;
+    }
+
+    .third-center-heading {
+        margin-left: 12%;
+        margin-right: 12%;
+        padding-bottom: 70px;
+    }
+
+    .last-schedule-btn {
+        text-align: center;
+    }
+
+
+    .about-info {
+        margin: 0;
+    }
+
+    .about-info2 {
+        font-family: Montserrat;
+        text-align: left;
+        font-size: 20px;
+        margin-left: 0;
+
+    }
+
+    .notebook-image img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        height: auto;
+    }
+
+    #solidbar-section {
+        margin-top: 50px;
+
+    }
+
+
+
+
+    .center-text .subheading-one {
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    .center-text {
+        margin-top: -50px;
+        text-align: center;
+        font-family: Montserrat;
+
+    }
+
+    .center-text p {
+        margin-right: 10%;
+        margin-left: 10%;
+        font-size: 18px;
+
+    }
+
+    .credit-score-image img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        height: auto;
+    }
+
+
+}

@@ -1,11 +1,16 @@
 body {
   font-family: 'Heebo', sans-serif;
+  width: 100%;
 }
 
 .center-heading-two {
   display: none;
 
 
+}
+
+#header-top-second {
+  display: none;
 }
 
 .section-btn {
@@ -19,11 +24,23 @@ body {
   font-family: Heebo;
 }
 
-#section-btn-about {
-  font-size: 18px;
+.button_button {
+  margin-top: 50px;
+}
+
+/* #section-btn-about {
+  font-size: 17px;
   padding-right: 30px;
   padding-left: 30px;
   font-family: Heebo;
+
+} */
+
+#section-btn-about {
+  position: relative;
+  margin-left: 10px;
+  z-index: 999;
+  font-size: 20px;
 
 }
 
@@ -39,6 +56,7 @@ body {
 
 .header-navbar-one {
   height: 230px;
+  max-width: 100vw;
   margin-right: 5%;
   margin-left: 5%;
   padding-top: 50px;
@@ -52,6 +70,8 @@ body {
 
 #call-button-top {
   padding-top: 50px;
+  text-align: right;
+
 }
 
 .bg-image-home .container-fluid {
@@ -65,6 +85,7 @@ body {
 
 
 }
+
 
 .qualify-rectangle-background {
   background-color: white;
@@ -99,20 +120,51 @@ body {
   padding-bottom: 80px;
 }
 
+.credit-score-image {
+  padding-left: -20%;
+  float: right;
+  align-items: right;
+}
+
 .center-heading {
+  padding-top: 10px;
   padding-bottom: 80px;
+  font-family: heebo;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.rectangle {
+  margin-left: auto;
+  margin-right: auto;
+  height: 2px;
+  width: 500px;
+  background-color: #86c342;
 }
 
 .about-info {
   font-family: Montserrat;
   text-align: left;
+  margin-right: 15%;
+
+}
+
+.about-info2 {
+  font-family: Montserrat;
+  text-align: left;
+  margin-left: 0%;
+
+
 }
 
 .arrow-schedule-button {
-  margin-left: 30%;
+  margin-left: 20%;
 }
 
-.arrow-btn-align{margin-left: 30px;}
+.arrow-btn-align {
+  margin-left: 30px;
+}
 
 
 
@@ -123,70 +175,143 @@ td {
 }
 
 td {
+
   width: 10px;
   vertical-align: top;
 }
+
+
 
 #about-overlooked-barrier {
   text-align: center;
 }
 
 #about-overlooked-barrier {
-  padding-top: 100px;
-  padding-bottom: 100px;
-
+  padding-top: 90px;
 
 }
 
 
-#about-overlooked-barrier .center-heading {
+/* #about-overlooked-barrier .center-heading {
   font-family: Heebo;
-}
+} */
 
 #about-overlooked-barrier h3 {
   font-family: Heebo;
 }
 
-#about-overlooked-barrier .center-text {
-  font-family: Montserrat;
-  font-size: 23px;
-}
+
 
 .center-text {
   margin-top: -50px;
-  margin-right: 17%;
-  margin-left: 17%;
+  text-align: center;
+  font-family: Montserrat;
+
 }
 
+.credit-score-image img {
+  width: auto;
+  height: 500px;
+  margin-left: 35%;
+}
+
+.center-text p {
+  margin-right: 37%;
+  margin-left: 37%;
+  font-size: 20px;
+
+}
+
+.center-text .subheading-one {
+  font-family: Heebo;
+}
+
+
+
 #solidbar-section {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  margin-top: 5%;
+  padding-top: 40px;
+  padding-bottom: 40px;
   background-color: #191919;
   color: #fff;
   text-align: center;
 }
 
-.second-center-heading h2{ font-family: Heebo;}
+.second-center-heading h2 {
+  font-family: Heebo;
 
-.third-center-heading{ font-family: Heebo;
-padding-top:50px; text-align:left;
+}
 
-padding-bottom:50px;}
+.third-center-heading {
+  font-family: Heebo;
+  padding-top: 50px;
+  text-align: left;
+  margin-left: 30%;
+  margin-right: 30%;
+
+  padding-bottom: 50px;
+}
+
+
+.about-info {
+
+  margin-right: 55%;
+}
 
 .about-info p {
   font-family: Montserrat;
   font-size: 20px;
-  margin-right:15%;
-}
-
-.last-schedule-btn{
-  padding-top:50px;
-  padding-bottom:50px;}
-
-#footer{margin-top:60px; background-color:#191919; color:#fff; height :300px;
 
 }
 
-.footer-text{font-family: Montserrat;
-  padding-top:80px;
-  font-size: 20px;}
+.about-info2 {
+  font-family: Montserrat;
+  text-align: left;
+  font-size: 20px;
+  margin-left: 60%;
+
+}
+
+.last-schedule-btn {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.button_button2 {
+  display: none;
+}
+
+#footer {
+  margin-top: 60px;
+  background-color: #191919;
+  color: #fff;
+  height: 300px;
+
+}
+
+.footer-text {
+  font-family: Montserrat;
+  padding-top: 80px;
+  font-size: 20px;
+
+}
+
+
+@media screen and (min-width: 1489px) {
+  #call-button-top {
+    margin-top: -120px;
+  }
+}
+
+@media screen and (max-width: 1707px) and (min-width: 1000px) {
+
+  .third-center-heading {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+  .about-info2 {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+}
