@@ -296,6 +296,10 @@ td {
 
 }
 
+a {
+  color: #fff !important;
+}
+
 a:link {
   text-decoration: none !important;
   color: #fff !important;
